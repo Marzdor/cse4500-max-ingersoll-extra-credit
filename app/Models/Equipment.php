@@ -19,7 +19,8 @@ class Equipment extends Model
         'storage',
         'invoice_number',
         'price',
-        'purchase_date'
+        'purchase_date',
+        'user_id'
     ];
 
 
