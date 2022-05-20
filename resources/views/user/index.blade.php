@@ -13,7 +13,7 @@
     <div class="row">
         @foreach ($users as $item)
             <div class="col-md-1 col-sm-1 col-12">
-                <div style="border: 2px solid black" class="small-box">
+                <div style="border: 2px solid black">
                     <h3>{{ $item->equipment->count() }}</h3>
                     <p>{{ $item->name }}</p>
 

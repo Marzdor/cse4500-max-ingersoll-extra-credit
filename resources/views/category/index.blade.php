@@ -15,7 +15,7 @@
                 <h3>{{ $item->equipment->count() }}</h3>
                 <p>{{ $item->name }} device</p>
 
-                <a href="{{ route('categories.show', ['category' => $item]) }}" class="small-box-footer">
+                <a href="{{ route('categories.show', ['category' => $item]) }}">
                     More info
                 </a>
             </div>
